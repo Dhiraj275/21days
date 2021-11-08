@@ -8,65 +8,68 @@
     <title>21 days</title>
 </head>
 <style>
-    * {
+    *{
         margin: 0;
         padding: 0;
-        box-sizing: border-box;
     }
-
-    body {
+    body{
         margin: 40px;
+        background-color: black;
     }
-
-    img {
-        width: 200px;
-        height: auto;
+    h3{
+       font-size: 25px; 
+       color: crimson;
     }
-
-    ul {
-        padding: 0 40px;
+    h4{
+        font-size: 30px;
+        color: #fff;
+        margin-bottom: 18px;
     }
-
-    .social-media {
-        display: flex;
-        margin-top: 20px;
+    button{
+        padding: 15px 20px;
+        margin: 20px 0;
+        background: transparent;
+        border: 2px solid #fff;
+        color: #fff;
+        border-radius: 6px;
     }
-
-    .social-media div {
-        width: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+    ul{
+        color: #fff;
+        font-size: 30px;
+        padding-left: 40px;
     }
-
-    h3 {
-        font-size: 18px;
-    }
-
-    h4 {
-        margin-bottom: 10px;
-    }
-
-    a {
+    a{
+        color: rgb(0, 217, 255);
+        font-size: 25px;
         text-decoration: none;
     }
-
-    a span {
-        color: #000;
-
+    form{
+        color: white;
     }
-
-    @media(max-width:911px) {
-        .social-media {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .social-media div {
-            width: 100%;
-            display: flex;
-        }
+    form h3{
+        text-align: center;
+        margin-top: 30px;
+    }
+    label{
+        font-size: 25px;
+    }
+    input[type=text]{
+        background-color: transparent;
+        height: 34px;
+        width: 100%;
+        color: #fff;
+        border: none;
+        border-bottom: 2px solid #fff;
+        font-size: 22px;
+        outline: none;
+    }
+    input::placeholder{
+        color: #fff;
+    }
+    select{
+        width: 100%;
+        height: 34px;
+        font-size: 25px;
     }
 </style>
 
@@ -86,20 +89,42 @@
     </ul>
 
     <div class="social-media">
-        <div>
-            <h3>Instagram:</h3>
-            <a target="_blank" href="http://instagram.com/dhruvloper">@dhruvloper <span>(click to follow)</span></a>
-            <br>
-            <img src="instagram.png" alt="">
-        </div>
-        <div>
+       
+        <center>
             <h3>Snapchat:</h3>
+            <a href="login.html">Login</a> <br>
             <a target="_blank" href="https://www.snapchat.com/add/dhruvagamer?share_id=nZWsHkPyTuM&locale=en-US">Click
                 Here to see Magic</a>
             <br>
-            <img style="border-radius: 34px;" src="snapchat.jpeg" alt="">
-        </div>
+            <img style="border-radius: 34px;" src="images/snapchat.jpeg" alt="">
+        </center>
     </div>
+
+   
+    <form action="">
+        <h3>Fill the form</h3>
+        <h4>Select You stream</h4>
+        <input type="radio" id="Info. Tech" name="fav_language" value="Info. Tech">
+        <label for="Info. Tech">Info. Tech</label><br>
+        <input type="radio" id="Computer Science" name="fav_language" value="CS">
+        <label for="Computer Science">Computer Science</label><br>
+        <input type="radio" id="Software Engineering" name="fav_language" value="Software Engineering">
+        <label for="Software Engineering">Software Engineering</label>
+        <br>
+        <h4 style="font-size: 22px; margin: 20px 0 0;">Upload you CV</h4>
+        <input style="width: 100%; margin: 10px 0;" type="file" multiple>
+        <label for="">Email:</label>
+        <input type="text" autocomplete="off">
+        <h4>Select your state</h4>
+        <select name="" id="">
+            <option value="Gujarat">Gujarat</option>
+            <option value="Due">Due</option>
+            <option value="Daman">Daman</option>
+            <option value="Silvasa">Silvasa</option>
+        </select>
+    
+            <button>Hello Friend, chaii pillo</button>
+    </form>
 </body>
 
 </html>
