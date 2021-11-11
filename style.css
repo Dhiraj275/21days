@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.login-page{
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.login-box{
+    width: 20vw;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+.login-box h3{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+.login-box input{
+    width: 95%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    margin-bottom:  8px;
+    padding: 10px  6px;
+    outline: none;
+    color: #fff;
+    font-size: 20px;
+}
+.login-box label{
+    font-size: 22px;
+}
+.login-box button{
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 20px;
+    padding: 4px 17px;
+    margin: 10px 0;
+}
+.login-box a{
+    color: #fff;
+    text-decoration: none;
+}
+.login-box .account{
+    margin: 10px 0;
+}
+@media (max-width:724px) {
+    .login-box{
+        width: 80vw;
+    }
+}
+
+body, html{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+
+.itunes #overview{
+    height: 88vh;
+    width: 100vw;
+    background: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/showcase.jpeg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+.itunes #overview p{
+    text-align: center;
+    margin: 20px 140px;
+    font-size: 20px;
+}
+.itunes #overview h1{
+    font-size: 64px;
+}
+.itunes #overview h3{
+    font-size: 34px;
+    margin: 24px 0;
+}
+
+.itunes .music{
+    background: #252529;
+    color: #fff;
+    text-align: center;
+    padding: 40px 60px;
+}
+.itunes .music h3{
+    font-size: 40px;
+}
+.itunes .music h4{
+    font-size: 32px;
+    margin: 30px;
+    font-weight: 700;
+}
+.itunes .music p{
+    font-size: 20px;
+    margin: 20px 0;
+}
+.itunes .music button{
+    background: #b90415;
+    padding: 16px;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+.itunes .music img{
+    display: flex;
+    justify-content: center;
+}
+.itunes .ritik{
+     background: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/section-bg.jpeg);
+     padding: 160px 0;
+     text-align: center;
+     color: #fff;
+}
+.itunes .ritik h3{
+    margin:  30px 0;
+    font-size: 32px;
+}
+.itunes .ritik p{
+    font-size: 20px;
+    margin: 20px 40px;
+}
+.itunes footer{
+    background: #252529;
+    padding: 40px 0;
+}
+.itunes .footer-cols{
+    display: flex;
+}
+.itunes .footer-cols ul{
+    width: 25%;
+    color: #fff;
+    padding: 0%;
+    list-style-type: none;
+}
+.itunes .footer-cols ul li{
+    font-size: 20px;
+}
+.itunes .footer-cols ul a{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
