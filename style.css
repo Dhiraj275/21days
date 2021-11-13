@@ -118,6 +118,7 @@ body, html{
 .itunes .music img{
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 .itunes .ritik{
      background: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/section-bg.jpeg);
@@ -153,4 +154,49 @@ body, html{
     color: #fff;
     font-size: 16px;
     text-decoration: none;
+}
+@media (max-width:721px) {
+    .itunes #overview{
+        height: auto;
+        padding: 60px 0;
+    }
+    .itunes #overview h3{
+        text-align: center;
+        font-size: 26px;
+        margin: 10px 0;
+    }
+    .itunes #overview h1{
+        font-size: 34px;
+    }
+    .itunes .music {
+        padding: 20px 10px;
+    }
+    .itunes #overview p{
+        margin: 20px;
+    }
+    .itunes .music p{
+        margin: 20px;
+    }
+    .itunes .music img{
+        width: 100%;
+        height: auto;
+    }
+    .itunes .ritik{
+        padding: 20px;
+    }
+    .itunes .ritik p{
+        margin: 20px 0;
+    }
+    .itunes .footer-cols{
+        flex-direction: column;
+    }
+    .itunes .footer-cols ul{
+        width: 100%;
+    }
+    .itunes .footer-cols ul li{
+        font-size: 24px;
+    }
+    .itunes .footer-cols ul li a{
+        font-size: 20px;
+    }
 }
